@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/llCommonXJBContainer"
+        android:layout_width="match_parent"
+        android:layout_height="255dp"
+        android:background="#C7A975"
+        android:orientation="vertical">
+
+
+
+        <RelativeLayout
+            android:layout_marginBottom="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:orientation="horizontal">
+                <!--自选，收藏-->
+                <TextView
+                    android:id="@+id/selfCollections"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:id="@+id/tvSetVoteFund"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"/>
+
+                <TextView
+                    android:id="@+id/tvMyAssets"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <View
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:id="@+id/toFundTab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/llIncludeContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#bcbcbc"
+        android:orientation="vertical"></LinearLayout>
+
+    <!--底部温馨提示-->
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-----联储证券.风险揭示-----"
+            android:textSize="13sp" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="4dp"
+            android:text="当前所有数据内容仅供参考，不构成任何投资意见与建议，任何产
+品的过往业绩并不能预示其未来表现。提醒广大投资者注意投资风
+险，密切关注自身风险承受能力级别以及投资目标，选择与自身实
+际情况相匹配的产品或服务。请仔细阅读产品合同并了解产品的具
+体情况。理财有风险，投资需谨慎！"
+            android:textColor="#bcbcbc"
+            android:textSize="11sp" />
+    </LinearLayout>
+
+</LinearLayout>

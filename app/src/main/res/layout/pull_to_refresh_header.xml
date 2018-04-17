@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/pull_to_refresh_header_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="bottom"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_horizontal">
+
+        <RelativeLayout
+            android:id="@+id/pull_to_refresh_header_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+            <TextView
+                android:id="@+id/pull_to_refresh_header_hint_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:text="下拉可以刷新"
+                android:textColor="#999999"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:id="@+id/pull_to_refresh_last_update_time_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/pull_to_refresh_header_hint_textview"
+                android:layout_marginTop="5dp"
+                android:text="上次刷新时间:"
+                android:textColor="#999999"
+                android:textSize="10sp"/>
+
+            <TextView
+                android:id="@+id/pull_to_refresh_header_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/pull_to_refresh_header_hint_textview"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/pull_to_refresh_last_update_time_text"
+                android:minWidth="50dp"
+                android:textColor="#999999"
+                android:textSize="10sp"/>
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/pull_to_refresh_header_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="18dp"
+            android:layout_toLeftOf="@id/pull_to_refresh_header_text"
+            android:contentDescription="@string/app_name"
+            android:scaleType="centerInside"
+            android:src="@mipmap/arrow_pull_to_refresh"/>
+
+        <!--<ProgressBar-->
+        <!--android:id="@+id/pull_to_refresh_header_progressbar"-->
+        <!--android:layout_width="28dip"-->
+        <!--android:layout_height="28dip"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:gravity="center"-->
+        <!--android:layout_toLeftOf="@id/pull_to_refresh_header_text"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_marginRight="8dp"-->
+        <!--android:visibility="invisible"/>-->
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/pull_to_refresh_header_progressbar"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginRight="18dp"
+            android:layout_toLeftOf="@id/pull_to_refresh_header_text"
+            android:scaleType="centerInside"
+            android:src="@drawable/chrysanthemum_progress"/>
+
+    </RelativeLayout>
+</LinearLayout>
