@@ -4,7 +4,7 @@ android {
     compileSdkVersion 26
     buildToolsVersion "26.0.3"
     defaultConfig {
-        applicationId "lczq.testcircleimageview"
+        applicationId "lczq.drefresh"
         minSdkVersion 23
         targetSdkVersion 26
         versionCode 1

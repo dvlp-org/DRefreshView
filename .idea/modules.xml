@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/TestRefreshView.iml" filepath="$PROJECT_DIR$/TestRefreshView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DRefreshView.iml" filepath="$PROJECT_DIR$/DRefreshView.iml" />
+      <module fileurl="file://E:\dvlp\github\Dfresh\DRefreshView\TestRefreshView.iml" filepath="E:\dvlp\github\Dfresh\DRefreshView\TestRefreshView.iml" />
       <module fileurl="file://$PROJECT_DIR$/dRefreshView/dRefreshView.iml" filepath="$PROJECT_DIR$/dRefreshView/dRefreshView.iml" />
+      <module fileurl="file://E:\dvlp\github\Dfresh\DRefreshView\dRefreshView\dRefreshView.iml" filepath="E:\dvlp\github\Dfresh\DRefreshView\dRefreshView\dRefreshView.iml" />
       <module fileurl="file://$PROJECT_DIR$/main/main.iml" filepath="$PROJECT_DIR$/main/main.iml" />
+      <module fileurl="file://E:\dvlp\github\Dfresh\DRefreshView\main\main.iml" filepath="E:\dvlp\github\Dfresh\DRefreshView\main\main.iml" />
     </modules>
   </component>
 </project>
